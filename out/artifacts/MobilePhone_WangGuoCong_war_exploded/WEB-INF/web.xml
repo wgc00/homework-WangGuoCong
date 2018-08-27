@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <welcome-file-list>
+        <welcome-file>jsp/user_login.jsp</welcome-file>
+    </welcome-file-list>
+   <!-- <servlet>
+        <servlet-name>MobilePhoneAdd</servlet-name>
+        <servlet-class>com.web.MobilePhoneAdd</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MobilePhoneDelete</servlet-name>
+        <servlet-class>com.web.MobilePhoneDelete</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MobilePhoneListAll</servlet-name>
+        <servlet-class>com.web.MobilePhoneListAll</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>MobilePhoneUpdate</servlet-name>
+        <servlet-class>com.web.MobilePhoneUpdate</servlet-class></servlet>
+    <servlet>
+        <servlet-name>MobilePhoneQueryName</servlet-name>
+        <servlet-class>com.web.MobilePhoneQueryName</servlet-class>
+    </servlet>
+
+
+    <servlet>
+        <servlet-name>UsersListAll</servlet-name>
+        <servlet-class>com.web.UsersListAll</servlet-class>
+    </servlet>
+
+
+    <servlet>
+        <servlet-name>UsersAdd</servlet-name>
+        <servlet-class>com.web.UsersAdd</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UsersAdd</servlet-name>
+        <url-pattern>/UsersAdd</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>UsersListAll</servlet-name>
+        <url-pattern>/UsersListAll</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>MobilePhoneQueryName</servlet-name>
+        <url-pattern>/MobilePhoneQueryName</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>MobilePhoneUpdate</servlet-name>
+        <url-pattern>/MobilePhoneUpdate</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MobilePhoneListAll</servlet-name>
+        <url-pattern>/MobilePhoneListAll</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MobilePhoneDelete</servlet-name>
+        <url-pattern>/MobilePhoneDelete</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>MobilePhoneAdd</servlet-name>
+        <url-pattern>/MobilePhoneAdd</url-pattern>
+    </servlet-mapping>-->
+
+    <filter>
+        <filter-name>sitemeshfilter</filter-name>
+        <filter-class>com.opensymphony.sitemesh.webapp.SiteMeshFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>sitemeshfilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+</web-app>
